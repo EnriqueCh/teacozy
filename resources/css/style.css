@@ -17,19 +17,43 @@ header{
 	position:fixed;
 	width: 100%;
 	border-bottom: 1px solid seashell;
+	padding: 9px 10px;
 
 }
 
 a{
 	color: seashell;
-	margin: 10px;
-
+	margin: 0 20px;
 }
 
-img {
+img{
 	height: 50px;
 }
 
 .logo{
-	margin: 9px 10px;
+	height: 50px;
+}
+
+/* mission div */
+
+#mission > div {
+	border: 1px solid green;
+}
+
+#mission{
+	position:relative;
+	top:70px;
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid red;
+}
+
+.background{
+	background-image: url(../images/background.jpg);
+	background-attachment:fixed;
+	background-position: center;
+	width: 1200px;
+	height: 700px;
 }

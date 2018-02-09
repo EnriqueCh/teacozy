@@ -18,7 +18,8 @@ header{
 	width: 100%;
 	border-bottom: 1px solid seashell;
 	padding: 9px 10px;
-
+	background-color: black;
+	z-index: 5;
 }
 
 a{
@@ -78,5 +79,36 @@ img{
 	margin: 0 auto;
 }
 
-
 /* tea of the month */
+
+#monthee{
+	position: relative;
+	top: 150px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	border: 1px dotted red;
+}
+
+#monthee h2{
+	margin: 0;
+}
+
+.imgcont{
+	display: inline-flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 1000px;
+	border: 1px solid green;
+	align-self: center;
+}
+
+.imgcont img{
+	width: 300px;
+	height: 200px;
+}
+
+.imgcont h4{
+	padding-top: 10px;
+	margin-top: 0;
+}

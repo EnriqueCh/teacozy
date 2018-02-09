@@ -62,19 +62,21 @@ img{
 }
 
 .background h2{
-	display: inline-flex;
+	text-align: center;
 	background-color: black;
 	width: 100%;
 	padding: 10px;
 	margin: 0 auto;
-	justify-content: center;
+
 	}
 
 .background h4{
-	display: inline-flex;
+  text-align: center;
 	background-color: black;
 	width: 100%;
 	padding: 10px;
 	margin: 0 auto;
-	justify-content: center;
 }
+
+
+/* tea of the month */

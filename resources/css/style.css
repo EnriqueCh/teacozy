@@ -24,6 +24,7 @@ header{
 a{
 	color: seashell;
 	margin: 0 20px;
+	text-decoration: underline;
 }
 
 img{
@@ -52,8 +53,28 @@ img{
 
 .background{
 	background-image: url(../images/background.jpg);
-	background-attachment:fixed;
-	background-position: center;
 	width: 1200px;
 	height: 700px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.background h2{
+	display: inline-flex;
+	background-color: black;
+	width: 100%;
+	padding: 10px;
+	margin: 0 auto;
+	justify-content: center;
+	}
+
+.background h4{
+	display: inline-flex;
+	background-color: black;
+	width: 100%;
+	padding: 10px;
+	margin: 0 auto;
+	justify-content: center;
 }

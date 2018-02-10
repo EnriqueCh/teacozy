@@ -168,8 +168,9 @@ img{
 }
 
 footer{
-	position: relative;
-	top: 120px;
+	/*position: relative;
+	top: 120px;*/
+	align-self: flex-start;
 	margin: 20px;
 }
 

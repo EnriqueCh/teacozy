@@ -32,20 +32,24 @@ img{
 	height: 50px;
 }
 
+footer{
+	align-self: flex-start;
+	margin: 20px;
+}
+
 .logo{
 	height: 50px;
 }
 
-/* mission div */
-
-#mission{
-	/*position:relative;
-	top:70px;*/
+.contenido {
+	position:absolute;
 	display: flex;
-	flex-direction:column;
 	justify-content: center;
 	align-items: center;
+	flex-direction: column;
+	width: 100%;
 }
+
 
 .background{
 	background-image: url(../images/background.jpg);
@@ -74,24 +78,6 @@ img{
 	margin: 0 auto;
 }
 
-/* tea of the month */
-
-#monthee{
-	/*position: relative;
-	top: 150px;*/
-	display: flex;
-	flex-direction: column;
-	text-align: center;
-	margin-top: 20px;
-	border: 1 solid red;
-
-}
-
-#monthee h2{
-	margin: 10px;
-}
-
-
 .imgcont{
 	display: flex;
 	flex-flow: row wrap;
@@ -116,17 +102,6 @@ img{
 	margin-top: 10px;
 }
 
-/* location inc */
-
-#locations{
-	/*position: relative;
-	top: 200px;*/
-	display: flex;
-	text-align: center;
-	justify-content: center;
-}
-
-
 
 .bgtea{
 	background-image: url(../images/blackcup.jpg);
@@ -136,10 +111,6 @@ img{
 	align-items: center;
 	width: 1200px;
 	height: 500px;
-}
-
-#locations h2{
-	margin: 0;
 }
 
 .places{
@@ -158,28 +129,42 @@ img{
 	opacity: 1;
 }
 
+
+#monthee{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding-top: 60px;
+	border: 1 solid red;
+
+}
+
+#monthee h2{
+	margin: 10px;
+}
+
+#mission{
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items: center;
+	padding: 70px 0 0 0;
+}
+
+#locations{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+
+
+#locations h2{
+	margin: 0;
+}
+
 #contact{
-	/*position: relative;
-	top: 180px;*/
 	text-align: center;
 	margin: 0;
 	padding: 0;
 	height: 200px;
-}
-
-footer{
-	/*position: relative;
-	top: 120px;*/
-	align-self: flex-start;
-	margin: 20px;
-}
-
-.contenido {
-	position:absolute;
-	top: 70px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	width: 100%;
 }
